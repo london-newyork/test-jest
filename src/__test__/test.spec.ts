@@ -1,7 +1,7 @@
-import { test } from '../app';
+import { CalcNum } from '../app';
 
 describe('test', () => {
   it('has to be Nice!', () => {
-    expect(test(2, 1));
+    expect(CalcNum(2, 1));
   });
 });
